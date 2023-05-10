@@ -1,6 +1,6 @@
 # MavenMoviesFinalProject
 
-<h2>Situation:<i>The business partner and I were recently approached by another local business owner who is interested in purchasing Maven Movies. He primarily owns resturants and bars, so he has lots of questions for me about the Maven Movies business and the rental business in general. His offer seems very generous, so I have decided to entertain his questions.</i></h2>
+<h2><i>Situation:The business partner and I were recently approached by another local business owner who is interested in purchasing Maven Movies. He primarily owns resturants and bars, so he has lots of questions for me about the Maven Movies business and the rental business in general. His offer seems very generous, so I have decided to entertain his questions.</i></h2>
 
  
 1. My partner and I want to come by each of the stores in person and meet the managers. 
