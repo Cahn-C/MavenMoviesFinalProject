@@ -40,7 +40,7 @@ order by 1;
 
 -- Question 5
 select c.first_name as customer_first_name, c.last_name customer_last_name, c.store_id, a.address, ci.city, co.country,
-	   case when c.active = 1 then 'active' else 'inactive' end as customer_status
+       case when c.active = 1 then 'active' else 'inactive' end as customer_status
 from customer c
 join address a
 on c.address_id = a.address_id
@@ -67,9 +67,9 @@ select 'advisor' as type, first_name, last_name, 'Not associated' from advisor;
 
 -- Question 8
 select case when awards = 'Emmy, Oscar, Tony ' then '3 awards'
-			when awards in ('Emmy, Oscar', 'Emmy, Tony', 'Oscar, Tony') then '2 awards'
+	    when awards in ('Emmy, Oscar', 'Emmy, Tony', 'Oscar, Tony') then '2 awards'
             else '1 award'
-	   end as actor_awards,
+       end as actor_awards,
        avg(case when actor_id is null then 0 else 1 end) as percentage_awards 
 from actor_award
 group by 1;
